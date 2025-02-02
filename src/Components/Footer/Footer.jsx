@@ -5,8 +5,8 @@ const Footer = () => {
     return (
   
  
-    <footer className="text-white py-8">
-      <div className="container mx-auto px-4">
+    <footer className="text-white py-6">
+      <div className="container mx-auto px-0">
         <div className="bg-blue-950 text-center md:text-center grid grid-col-1 md:grid-cols-3 gap-8 pl-8 pb-10 pt-14">
 
           {/* Column 1: Company */}
@@ -16,7 +16,7 @@ const Footer = () => {
 
           {/* Column 2: Quick Links */}
           <div className="text-teal-400 text-lg text-center mb-4 grid grid-cols-3 ml-20 mt-6 ">
-            <h3 className="font-bold border-r border-gray-600 pb-2 pr-4">Our Solutions </h3>
+            <h3 className="font-bold border-r border-gray-600 pb-2 pr-4 sm:hidden">Our Solutions </h3>
             <ul className="grid grid-cols-1 md:grid-cols-3 md:gap-20 pl-4 pl-6">
               <li className="mb-2">
                 <a href="#" className="hover:text-blue-400 ">AnyCaaS</a>
