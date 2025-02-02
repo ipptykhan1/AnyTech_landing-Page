@@ -1,16 +1,15 @@
-import { useState } from 'react'
-import './App.css'
+import './app.css'
+import Footer from './Components/Footer/Footer'
+
 
 function App() {
   
 
   return (
     <>
-      <h1 className='text-pink-500'>Vite + React</h1>
-      <div >
-       
-      </div>
-     
+       <div>
+        <Footer/>
+       </div>
     </>
   )
 }
