@@ -1,5 +1,6 @@
 import React from 'react'
 import photo from '../../assets/photo.jpg';
+import './About.css';
 
 const About = () => {
   return (
@@ -19,7 +20,7 @@ const About = () => {
           </div>
           <div className="w-full mt-4  p-4">
             <img
-              className="rounded-3xl w-full h-96 mx-auto"
+              className="rounded-3xl w-full w-auto image mx-auto"
               src={photo}
               alt="photo"
             />
