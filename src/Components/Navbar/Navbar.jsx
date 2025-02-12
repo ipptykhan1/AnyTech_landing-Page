@@ -8,10 +8,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-blue-300 p-4">
+    <nav className="bg-blue-300 p-4 pl-8 pr-8">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <div className="text-white text-2xl font-bold">MyLogo</div>
+        <div className="text-white text-2xl font-bold">AIYTech</div>
 
         {/* Hamburger Menu (Mobile) */}
         <div className="md:hidden">
@@ -51,13 +51,13 @@ const Navbar = () => {
         </div>
         {/* button */}
         <div>
-            <button>button</button>
+            <button className="text-white font-bold border rounded-xl px-2 py-1">button</button>
         </div>
       </div>
 
       {/* Mobile Menu (Collapsible) */}
       {isOpen && (
-        <div className="md:hidden mt-4">
+        <div className="md:hidden font-bold mt-4">
           <a href="#" className="block text-white py-2 hover:bg-blue-500">
             Solution
           </a>
